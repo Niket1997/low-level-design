@@ -1,7 +1,8 @@
 package org.blackjack.interfaces;
 
 import org.blackjack.models.Deck;
+import org.blackjack.models.GameProperties;
 
 public interface IPlayingStrategy {
-    boolean play(Deck deck);
+    void play(Deck deck, GameProperties gameProperties);
 }
