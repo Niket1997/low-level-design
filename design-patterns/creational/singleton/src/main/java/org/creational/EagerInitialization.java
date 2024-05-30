@@ -1,7 +1,7 @@
 package org.creational;
 
 class DBConnection {
-    private static DBConnection instance;
+    private static DBConnection instance = new DBConnection();
 
     private DBConnection() {}
 
